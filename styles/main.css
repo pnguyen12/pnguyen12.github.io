@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: black;
+}
+/********************************/
+/* Start of transitions landing page
+/********************************/
+.fly-in-text {
+    list-style-type: none;
+    position: absolute;
+    left: 29%;
+    top: 35%;
+    transform: translateX(-50%),translateY(-50%);
+}
+.fly-in-text li {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: Open Sans, Arial;
+    font-weight: 300;
+    font-size: 4em;
+    color: #fff;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.fly-in-text.hidden li:last-child {
+  margin-right: 0;
+}
+
+.fly-in-text.hidden li:last-child {
+    opacity: 0;
+}
+
+.fly-in-text.hidden li:nth-child(1){
+transform: translateX(-200px) translateY(-200px);
+}
+
+.fly-in-text.hidden li:nth-child(2){
+transform: translateX(20px) translateY(100px);
+}
+
+.fly-in-text.hidden li:nth-child(3){
+transform: translateX(-150px) translateY(-80px);
+}
+
+.fly-in-text.hidden li:nth-child(4){
+transform: translateX(10px) translateY(-200px);
+}
+
+.fly-in-text.hidden li:nth-child(5){
+transform: translateX(-300px) translateY(200px);
+}
+
+.fly-in-text.hidden li:nth-child(6){
+transform: translateX(20px) translateY(-20px);
+}
+
+.fly-in-text.hidden li:nth-child(7){
+transform: translateX(30px) translateY(200px);
+}
+
+/********************************/
+/* end of landing page transition
+/********************************/
+
+/********************************/
+/* Slide out nav bar start
+/********************************/
+
+#side-bar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #404040;
+    left: -200px;
+    transition: all 500ms linear;
+}
+
+#side-bar.active {
+    left: 0px;
+}
+
+#side-bar ul li {
+    list-style-type: none;
+    color: white;
+    padding: 15px 10px;
+    border-bottom: 1px solid white;
+   padding-left: 10px;
+   text-transform: uppercase;
+}
+
+#side-bar .toggle-button {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+
+#side-bar .toggle-button span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin: 5px 0;
+}
+
+
+#side-bar ul li:hover {
+    cursor: pointer;
+}
+
+
+/********************************/
+/* End of side bar
+/********************************/
+
+/********************************/
+/* ICON AND HOVER EFFECTS FOR HOME PAGE
+/********************************/
+
+i {
+    color: white;
+    padding: 50px;
+    left: 100px;
+}
+
+i:hover {
+    color: blue;
+}
+
+.container {
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    left: 10%;
+}
+
+.toggle-button span:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+/********************************/
+/* END OF HOVER AND ICON EFFECTS
+/********************************/
