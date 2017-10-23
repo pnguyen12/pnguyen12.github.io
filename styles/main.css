@@ -144,6 +144,12 @@ i:hover {
     background-color: blue;
 }
 
+#info {
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
 
 /********************************/
 /* END OF HOVER AND ICON EFFECTS
