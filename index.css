@@ -1,0 +1,111 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url(https://static.pexels.com/photos/462024/pexels-photo-462024.jpeg) no-repeat;
+	background-size: cover;
+}
+
+.box {
+	width: 450px;
+	height: 490px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	padding: 40px;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	margin-top: 7%;
+}
+
+
+
+.box h1 {
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+
+.box h5 {
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.box-img {
+	border-radius: 50%;
+}
+
+.more-info  {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+
+}
+
+.more-info button {
+	font-size: 20px;
+}
+
+.box p {
+	text-align: justify;
+	letter-spacing: 0.5px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.box i {
+	font-size: 35px;	
+	padding: 20px;
+	margin: auto;
+	color: white;
+}
+
+.box i:hover {
+	color: orange;
+	display: inline-block;
+
+}
+
+.download {
+	font-size: 20px;
+	float: right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+@media (max-width: 400px) {
+  .box {
+  	width: 100px;
+  	height: 100px;
+  }
+
+  img {
+  	height: 50px;
+  	width: 50px;
+  }
+
+  .box h1 {
+  	font-size: 10px;
+  }
+
+  .box h5 {
+  	font-size: 5px;
+  }
+
+  .box p {
+  	font-size: 3px;
+  }
+
+  .box i {
+  	font-size: 10px;
+  	padding: 2px;
+  }
+}
