@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
 	padding: 0px;
 	margin: 0px;
-	background: url(https://static.pexels.com/photos/462024/pexels-photo-462024.jpeg) no-repeat;
+	background: linear-gradient(to right, rgb(252, 53, 76), rgb(10, 191, 188));
 	background-size: cover;
+}
+
+.container {
+	position: relative;
+	top: 129px;
+}
+
+.type-container {
+	width: 550px;
+	margin: 0 auto;
+	color: white;
+	font-size: 40px;
+	font-family: 'Open Sans';
+	padding-left: 30px;
+
 }
 
 .box {
 	width: 450px;
-	height: 522px;
+	height: 370px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.4);
 	padding: 40px;
@@ -17,7 +34,15 @@ body {
 	margin-top: 7%;
 }
 
+.box a {
+	text-decoration: none;
+	color: white;
+}
 
+.box a:hover {
+	text-decoration: none;
+	color: gray;
+}
 
 .box h1 {
 	font-size: 40px;
@@ -28,7 +53,7 @@ body {
 .box h5 {
 	font-size: 20px;
 	font-weight: 100;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 }
 
 .box-img {

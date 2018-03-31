@@ -5,14 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Rozha+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
 </head>
 <body>
 <!-- <a class="download" href="">Download My Resume</a> -->
+<div class="container">
+	<div class="type-container">
+		<span id="app"></span>
+	</div>
 <div class="box">
-
-	<img class="box-img"height="200" width="200" src="image.jpg" alt="a picture">
+	<!-- <img class="box-img"height="200" width="200" src="image.jpg" alt="a picture"> -->
 	<h1>Peter Nguyen</h1>
-	<h5>Full Stack Developer | React, Redux, Node, Java </h5>
+	<h5>Front End Engineer at <h5><a href="">Prism Studios</a></h5></h5>
 
 	<hr>
 
@@ -26,8 +31,29 @@
       <!--    <a href="#"><i class="fa fa-github"></i></a> -->
 	</ul>
 </div>
+</div>
 <div class="more-info">
 		<!-- <button>test</button> -->
 </div>
+<script src="typewriter.js"></script>
+<script>
+	var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString("I love creating ")
+    .typeString('beatiful UIs')
+    .pauseFor(2000)
+    .deleteChars(12)
+	.typeString('APIs')
+	.pauseFor(2000)
+	.deleteChars(4)
+	.typeString('Databases')
+	.pauseFor(2000)
+	.deleteChars(16)
+    .start();
+</script>
 </body>
 </html>
