@@ -8,8 +8,13 @@ body {
 }
 
 .container {
+	/* position: relative;
+	top: 129px; */
+}
+
+#app {
 	position: relative;
-	top: 129px;
+	top: 110px;
 }
 
 .type-container {
@@ -19,6 +24,7 @@ body {
 	font-size: 40px;
 	font-family: 'Open Sans';
 	padding-left: 30px;
+	height: 150px;
 
 }
 
